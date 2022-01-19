@@ -11,12 +11,4 @@ contract RapgclaimTest is DSTest {
     function setUp() public {
         rapgclaim = new Rapgclaim();
     }
-
-    function testFail_basic_sanity() public {
-        assertTrue(false);
-    }
-
-    function test_basic_sanity() public {
-        assertTrue(true);
-    }
 }
